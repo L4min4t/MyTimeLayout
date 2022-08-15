@@ -1,0 +1,141 @@
+/* main */
+.main {
+    margin-top: 60px;
+    padding: 0 calc((100% - 1120px) / 2);
+    height: 510px;
+    background-color: #f9f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main img {
+    height: 510px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+}
+
+.main-text {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.big-red {
+    color: #D22D00;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.main-text p {
+    color: #000;
+    font-size: 20px;
+}
+
+.order-butt {
+    margin-top: 40px;
+    width: 252px;
+    height: 71px;
+    background-color: #D22D00;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-butt-main{
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+/* main */
+
+/* why-we */
+.why-we {
+    margin-top: 100px;
+    padding: 0 calc((100% - 1120px) / 2);
+    height: 510px;
+    height: 270px;
+    background-color: #ff3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus {
+
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plus img {
+    height: 112px;
+    width: 112px;
+}
+
+.plus h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.blue {
+    color: #1F6BFF;
+}
+
+.green {
+    color: #A4ED00;
+}
+
+.purple {
+    color: #792D94;
+}
+
+.yellow{
+    color: #FFB800;
+}
+/* why-we */
+
+/* teachers */
+.teachers {
+    margin-top: 100px;
+    background-color: #672;
+    padding: 0 calc((100% - 1120px) / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-self: center;
+}
+
+.teacher-row {
+    margin-top: 15px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.teacher h2{
+    font-size: 32px;
+    color: #D22D00;
+
+}
+
+
+/* teachers */
