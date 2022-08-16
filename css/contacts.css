@@ -1,0 +1,116 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px calc((100% - 1120px) / 2) ;
+}
+
+.contacts h1{
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.t-g {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.t-g p {
+    width: 400px;
+    font-size: 20px;
+}
+
+.place h2 {
+    color: #D22D00;
+    font-size: 40px;
+}
+
+.g-map {
+    height: 500px;
+    width: 600px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border: 1px rgba(57, 57, 57, 0.5) solid;
+    border-radius: 10px;
+}
+
+.aboba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboba img {
+    width: 400px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 15px;
+}
+
+.contact-us {
+    margin-top: 60px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.contact-us h2 {
+    color: #D22D00;
+    font-size: 40px;
+}
+
+.contacty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.col-c {
+    width: 380px;
+}
+
+.col-c h3 {
+    color: #D22D00;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.col-c p{
+    font-size: 20px;
+}
+
+.mail {
+    margin-top: 10px;
+}
+
+.num h4 {
+    font-size: 24px;
+}
+
+.vib {
+    color: #7360F2;
+}
+
+.inst {
+    color: #F20170;
+}
+
+.fac {
+    color: #2E89FF;
+}

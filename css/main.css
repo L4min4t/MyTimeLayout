@@ -1,10 +1,12 @@
 @import url("index.css");
 @import url("rent.css");
+@import url("contacts.css");
+@import url("courses.css");
 @import url("../fonts/avdira/avdira.css");
 @import url("../fonts/mariupol_font/stylesheet.css");
 
 
-body, html, div, p, h1, h2, h3 {
+body, html, div, p, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     color: #212121;
@@ -131,6 +133,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 25%;
+    width: 40%;
 }
+
+.mail-t {
+    height: 34px;
+    width: 200px;
+    border-radius: 17px;
+    background-color: #fff;
+    color: #D22D00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* footer */
