@@ -3,7 +3,7 @@
     margin-top: 60px;
     padding: 0 calc((100% - 1120px) / 2);
     height: 510px;
-    background-color: #f9f;
+    /* background-color: #f9f; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@
     padding: 0 calc((100% - 1120px) / 2);
     height: 510px;
     height: 270px;
-    background-color: #ff3;
+    /* background-color: #ff3; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,6 +83,7 @@
 .plus img {
     height: 112px;
     width: 112px;
+    border-radius: 21.8707px;
 }
 
 .plus h3 {
@@ -114,7 +115,7 @@
 /* teachers */
 .teachers {
     margin-top: 100px;
-    background-color: #672;
+    /* background-color: #672; */
     padding: 0 calc((100% - 1120px) / 2);
     display: flex;
     flex-direction: column;
@@ -125,17 +126,417 @@
 }
 
 .teacher-row {
-    margin-top: 15px;;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.teacher img {
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 15px;
+}
+
 .teacher h2{
     font-size: 32px;
     color: #D22D00;
+    margin-top: 20px;
+}
 
+.teacher p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.teacher hr {
+    width: 500px;
+    height: 1px;
+    border: none;
+    background: rgba(210, 45, 0, 0.08);
+    margin: 10px;
+    align-self: start;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.language img {
+    border-radius: 250px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+}
+
+.language p {
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+}
+/* teachers */
+
+/* speaching club */
+.speaking-club {
+    margin-top: 100px;
+    /* background-color: #672; */
+    padding: 0 calc((100% - 1120px) / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+.speaking-club h1{
+    align-self: center;
+}
+
+.sp-club {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.club-photo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.spc {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.spc img {
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 10px;
+}
+
+.club-photo img
+{
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 20px;
+}
+
+.club-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.c-t {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.c-t h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background: #D22D00;
+    transform: rotate(-45deg);
+}
+
+.spc-r {
+    height: 373px;
+    width: 559px;
+    border-radius: 30px;
+    background: #FFF4F3;
+    border-radius: 30px;
+    /* padding: 30px 0 0 0; */
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 30px; */
+    align-items: center;
+    justify-content: space-evenly;
+}   
+
+.spc-r p {
+    font-weight: 400;
+    font-size: 20px;
+    width: 474px;
+}
+
+.spc-r h3 {
+    font-weight: 500;
+    font-size: 20px;
+    width: 474px;
+}
+
+.speaking-club .order-butt {
+    align-self: center;
+}
+/* speaching club */
+
+
+/* pride */
+.pride {
+    height: 998px;
+    padding: 96px calc((100% - 1120px) / 2) 0;
+    margin-top: 120px;
+    background: linear-gradient(180deg, #FFFCEE 0%, #FFFFFF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pride img {
+    margin-top: 42px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 20px;
+}
+
+.pride-box {
+    height: 370px;
+    width: 746px;
+    background: #FFF4F3;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pride-box p {
+    width: 671px;
+    font-size: 20px;
+    font-weight: 400;
+    align-self: center;
+}
+
+.pride-box h3 {
+    width: 671px;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center;
+}
+/* pride */
+
+/* reviews */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    height: 446px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFCEE 100%);
+}
+
+.reviews h1 {
+    align-self: center;
+}
+
+.reviews-row {
+    margin-top: 98px;
+    padding: 0px calc((100% - 1120px) / 2) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review {
+    height: 276px;
+    width: 347px;
+    background: #fff;
+    box-shadow: 0px 4px 18px rgba(159, 159, 159, 0.14);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+
+.review-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #D22D00; 
+}
+
+.review-text p {
+    margin-top: 9px;
+    height: 90px;
+    width: 283px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile {
+    width: 100px;
+    position: relative;
+    top: -50px;
+}
+
+.stars {
+    margin-top: 9px;
+    height: 20px;
+    width: 104.8025131225586px;
+}
+/* reviews */
+
+/* q-a */
+.q-a{
+    margin-top: 100px;
+    padding: 0px calc((100% - 934px) / 2) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.q-a h1 {
+    align-self: center;
+}
+
+.q-a p {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.question {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.q-a-block {
+    margin: 40px 0;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
-/* teachers */
+details summary {
+    width: 100%;
+    padding: 0.5rem 0;
+    position: relative;
+    cursor: pointer;
+    list-style: none;
+}
+  
+details summary:after {
+
+    display: flex;
+    place-content: end center;
+    content: "‹";
+    transform: rotate(-90deg);
+    color: #D22D00;
+    position: absolute;
+    font-size: 35px;
+    line-height: 0;
+    top:25px;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 150ms linear;
+}
+
+details[open] summary:after {
+    transform: rotate(90deg);
+    font-size: 35px;
+}
+
+.q-a hr {
+    width: 934px;
+    height: 1px;
+    background: rgba(210, 45, 0, 0.08);
+    border: 0;
+}
+/* q-a */
+
+/* meeting */
+.meeting {
+    padding: 0px calc((100% - 1120px) / 2) ;
+    margin-top: 80px;
+    padding-top: 96px;
+    height: 750px;
+    background: linear-gradient(180deg, #FFF3F2 0%, #FFFFFF 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.flags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    align-self: center;
+}
+
+.flags img{
+    border-radius: 250px;
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.21));
+}
+
+.meeting h1 {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.f-i {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f-i img {
+    filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
+    border-radius: 20px;
+}
+
+.forma-button {
+    margin-top: 40px;
+    width: 252px;
+    height: 71px;
+    background-color: #D22D00;
+    border-radius: 300px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.forma-label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.forma-frame {
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 48px;
+    width: 467px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#commets  {
+    height: 120px;
+    border: rgba(0, 0, 0, 0.5);
+}
+/* meeting */
