@@ -12,6 +12,19 @@ body, html, div, p, h1, h2, h3 {
 a {
     text-decoration: none;
 }
+.bold {
+    font-weight: 700;
+}
+
+.red{
+    color: #D22D00;
+}
+
+.underlined {
+    text-decoration-line: underline;
+}
+
+
 
 .w {
     color: #fff;
@@ -103,7 +116,7 @@ a {
     height: 17.5px;
 }
 
-.footer-adress {
+.footer-adress a {
     display: flex;
     justify-content: start;
     align-items: center;

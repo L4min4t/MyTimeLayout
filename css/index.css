@@ -91,10 +91,6 @@
     font-size: 20px;
 }
 
-.bold {
-    font-weight: 700;
-}
-
 .blue {
     color: #1F6BFF;
 }
@@ -332,7 +328,7 @@
 .reviews {
     display: flex;
     flex-direction: column;
-    height: 446px;
+    height: 470px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFCEE 100%);
 }
 
@@ -349,7 +345,7 @@
 }
 
 .review {
-    height: 276px;
+    height: 300px;
     width: 347px;
     background: #fff;
     box-shadow: 0px 4px 18px rgba(159, 159, 159, 0.14);
@@ -377,8 +373,8 @@
     margin-top: 9px;
     height: 90px;
     width: 283px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .profile {
