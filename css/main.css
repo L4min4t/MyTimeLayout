@@ -5,7 +5,9 @@
 @import url("../fonts/avdira/avdira.css");
 @import url("../fonts/mariupol_font/stylesheet.css");
 
-
+body {
+    height: 100%;
+}
 body, html, div, p, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
@@ -30,6 +32,13 @@ textarea {
     text-decoration-line: underline;
 }
 
+.page-content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
 
 
 .w {
@@ -51,7 +60,7 @@ textarea {
 .navigation-center{
     align-items: center;
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -102,7 +111,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 43%;
 }
 
 .footer-logo{
