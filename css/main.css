@@ -22,6 +22,9 @@ a {
 .red{
     color: #D22D00;
 }
+textarea {
+    resize: none;
+}
 
 .underlined {
     text-decoration-line: underline;

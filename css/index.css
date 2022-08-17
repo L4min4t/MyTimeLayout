@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.main img {
+.main-photo {
     height: 510px;
     border-radius: 30px;
     filter: drop-shadow(0px 4px 18px rgba(57, 57, 57, 0.25));
@@ -50,6 +50,36 @@
     align-items: center;
     color: #fff;
     font-size: 18px;
+}
+
+.main-img{
+    position: relative;
+}
+
+.hello {
+    position: absolute;
+    top: -7%;
+    left: 10%;
+}
+.privit {
+    position: absolute;
+    top: 20%;
+    right: -5%;
+}
+.hallo {
+    position: absolute;
+    top: 60%;
+    left: -15%;
+}
+.hola {
+    position: absolute;
+    top: 60%;
+    right: -5%;
+}
+.chezz {
+    position: absolute;
+    bottom: -10%;
+    left: 40%;
 }
 /* main */
 
@@ -109,6 +139,35 @@
 /* why-we */
 
 /* teachers */
+.teacher {
+    position: relative;
+}
+
+.t-tags {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    z-index: 5;
+}
+
+.t-tag {
+    height: 30px;
+    width: fit-content;
+}
+
+.teach-img {
+    position: relative;
+}
+
+.t-img {
+    position: absolute;
+    top: -4%;
+    left: calc((100% - 1250px) / 2);
+}
+
 .teachers {
     margin-top: 100px;
     /* background-color: #672; */
@@ -182,6 +241,16 @@
 /* teachers */
 
 /* speaching club */
+.sp-img {
+    position: relative;
+}
+
+.s-img{
+    position: absolute;
+    bottom: -18%;
+    right: calc((100% - 1100px) / 2);
+}
+
 .speaking-club {
     margin-top: 100px;
     /* background-color: #672; */
@@ -282,6 +351,38 @@
 
 
 /* pride */
+.p-i-img {
+    position: relative;
+}
+
+.great {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: -10%;
+}
+.telephone {
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left: -30%;
+}
+.fantastic {
+    position: absolute;
+    z-index: 3;
+    top: 25%;
+    right: -23%;
+}
+
+.p-t-img {
+    position: relative;
+}
+
+.brit-fl {
+    position: absolute;
+    right: -20%;
+}
+
 .pride {
     height: 998px;
     padding: 96px calc((100% - 1120px) / 2) 0;
@@ -391,12 +492,32 @@
 /* reviews */
 
 /* q-a */
+.sky {
+    position: absolute;
+    z-index: 3;
+    top: -10%;
+    right: calc((100% - 1050px) / 2);
+}
+.fla {
+    position: absolute;
+    z-index: 4;
+    top: -18%;
+    right: calc((100% - 900px) / 2);
+}
+.mus {
+    position: absolute;
+    z-index: 5;
+    top: -15%;
+    right: calc((100% - 1050px) / 2);
+}
+
 .q-a{
     margin-top: 100px;
     padding: 0px calc((100% - 934px) / 2) ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .q-a h1 {
