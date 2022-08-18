@@ -168,6 +168,13 @@ textarea {
 
 
 @media (max-width: 1250px) {
+    .footer {
+        display: none;
+    }
+
+    .page-content {
+        display: none;
+    }
     .navbar {
         height: 72px;
         padding: 0 calc((100% - 800px) / 2);
