@@ -339,7 +339,7 @@ textarea {
     {
         position: absolute;
         top: -26.5px;
-        right: -50px;
+        right: -20px;
         width: 222px;
         height: 180px;
         border-radius: 20px;
@@ -404,6 +404,10 @@ textarea {
         font-family: Avdira;
         font-size: 32px;
     
+    }
+
+    .footer-adress {
+        width: fit-content;
     }
     
     .footer-line {
@@ -474,6 +478,7 @@ textarea {
     .mini-nav {
         flex-direction: column;
         align-items: flex-start;
+        width: fit-content;
         row-gap: 10px;
     }
 
