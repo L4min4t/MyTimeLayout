@@ -56,7 +56,8 @@
 
 .contact-us {
     margin-top: 60px;
-    width: 800px;
+    width: 75%;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -72,6 +73,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
+    width: 100%;
 }
 
 .col-c {
@@ -113,4 +115,134 @@
 
 .fac {
     color: #2E89FF;
+}
+
+
+@media (max-width: 1250px) {
+    .contacts {
+        padding: 0px calc((100% - 800px) / 2) ;
+    }
+
+    .contacts h1 {
+        font-size: 46px;
+    }
+
+    .aboba img {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .g-map {
+        height: 400px;
+    }
+}
+@media (max-width: 950px) {
+    .contacts {
+        padding: 0px 10% ;
+    }
+
+    .contacts h1 {
+        margin: 30px 0 20px;
+        font-size: 36px;
+    }
+    .contacts h2 {
+        font-size: 30px;
+    }
+
+    .col-c {
+        width: fit-content;
+    }
+
+    .col-c h3 {
+        font-size: 26px;
+    }
+    .col-c h4 {
+        font-size: 22px;
+    }
+    .col-c p {
+        font-size: 20px;
+    }
+
+    .contact-us {
+        margin-top: 60px;
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .aboba img {
+        max-width: 280px;
+    }
+
+    .aboba p{
+        width: 280px;
+    }
+
+    .g-map {
+        height: 350px;
+        width: 320px;
+    }
+}
+@media (max-width: 800px) {
+    .t-g {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .t-g p{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aboba img {
+        max-width: 400px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .g-map {
+        width: 100%;
+
+    }
+}
+@media (max-width: 700px) {
+    .contacty {
+        flex-direction: column;
+    }
+
+    .contacts h1 {
+        font-size: 28px;
+    }
+    .contacts h2 {
+        font-size: 26px;
+    }
+
+    .col-c h3 {
+        font-size: 24px;
+    }
+    .col-c h4 {
+        font-size: 20px;
+    }
+    .col-c p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 500px) {
+    .contacts h1 {
+        font-size: 24px;
+    }
+    .contacts h2 {
+        font-size: 22px;
+    }
+
+    .col-c h3 {
+        font-size: 20px;
+    }
+    .col-c h4 {
+        font-size: 18px;
+    }
+    .col-c p {
+        font-size: 16px;
+    }
 }
