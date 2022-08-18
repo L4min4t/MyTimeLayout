@@ -121,6 +121,13 @@
     font-size: 20px;
 }
 
+.aboba1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 43%;
+}
+
 .blue {
     color: #1F6BFF;
 }
@@ -237,6 +244,9 @@
     font-size: 16px;
     font-weight: 500;
     align-self: center;
+}
+.skrek {
+    display: none;
 }
 /* teachers */
 
@@ -574,7 +584,7 @@ details[open] summary:after {
 }
 
 .q-a hr {
-    width: 934px;
+    width: 100%;
     height: 1px;
     background: rgba(210, 45, 0, 0.08);
     border: 0;
@@ -652,8 +662,694 @@ details[open] summary:after {
     padding: 15px;
 }
 
-#commets  {
+.commets {
     height: 120px;
     border: rgba(0, 0, 0, 0.5);
 }
 /* meeting */
+
+
+@media (max-width: 1250px) {
+    
+    .main {
+        flex-direction: column;
+        height: fit-content;
+        row-gap: 70px;
+        padding: 0 calc((100% - 800px) / 2);
+    }
+
+    .why-we{
+        height: fit-content;
+        padding: 0 calc((100% - 800px) / 2);
+    }
+
+    .teachers {
+        padding: 0 calc((100% - 800px) / 2);
+    }
+
+    .aboba1 {
+        margin-top: 25px;
+        column-gap: 90px;
+        width: 400px;
+        align-self: center;
+    }
+    .plus h3 {
+        width: 163px;
+    }
+    .advantages {
+
+        flex-direction: column;
+    }
+
+    .teacher-row {
+        flex-direction: column;
+        row-gap: 40px;
+        align-self: center;
+    }
+
+    .sp-club {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+        padding: 0 calc((100% - 800px) / 2);
+        align-items: center;
+    }
+
+    .aboba4 {
+        width: 478px;
+    }
+
+
+    .p-i-img img:last-child {
+        width: 700px;
+    }
+
+    .pride-box p {
+        width: 650px;
+    }
+    .pride-box h3 {
+        width: 650px;
+    }
+
+    .s-img {
+        display: none;
+    }
+
+    .fantastic {
+        display: none;
+    }
+    
+    .great {
+        display: none;
+    }
+
+    .telephone {
+        display: none;
+    }
+
+    .brit-fl {
+        display: none;
+    }
+    .fla {
+        display: none;
+    }
+    .mus {
+        display: none;
+    }
+    .sky {
+        display: none;
+    }
+    .t-img {
+        display: none;
+    }
+    .privit {
+        display: none;
+    }
+    .hello {
+        display: none;
+    }
+    .hallo {
+        display: none;
+    }
+    .hola {
+        display: none;
+    }
+    .chezz {
+        display: none;
+    }
+
+    .pride-box {
+        width: 700px;
+    }
+
+    .reviews {
+        height: fit-content;
+    }
+
+    .review {
+        margin-bottom: 90px;
+        align-self: center;
+    }
+
+    .reviews-row {
+        flex-direction: column-reverse;
+    }
+
+    .q-a {
+        max-width: 760px;
+        align-self: center;
+    }
+
+    .bold {
+        white-space: nowrap;
+    }
+
+    .meeting {
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .f-i {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .f-i img {
+        max-width: 504px;
+    }
+
+    .advantages {
+        width: 800px;
+    }
+    
+}
+
+@media (max-width: 950px) {
+    .q-a h1 {
+        font-size: 32px;
+    }
+
+    .meeting h1 {
+        font-size: 32px;
+    }
+
+    .pride h1 {
+        font-size: 32px;
+    }
+    .reviews h1 {
+        font-size: 32px;
+    }
+
+    .main {
+        padding: 0 10%;
+    }
+
+    .why-we{
+        padding: 0 10%;
+    }
+
+    .teachers {
+        padding: 0 10%;
+    }
+
+
+    .advantages {
+        max-width: 600px;
+    }
+
+
+    .sp-club {
+        padding: 0 10%;
+    }
+
+
+    .p-i-img img:last-child {
+        width: 640px;
+    }
+
+    .pride-box {
+        width: 640px;
+        height: 480px;
+    }
+
+    .pride-box p {
+        width: 580px;
+    }
+    .pride-box h3 {
+        width: 580px;
+    }
+
+
+
+    .q-a {
+        max-width: 640px;
+    }
+
+
+    .f-i {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .f-i img {
+        max-width: 504px;
+    }
+
+    .advantages {
+        width: 800px;
+    }
+}
+
+@media (max-width: 700px) {
+   .main-text {
+    width: 360px;
+    height: 250px;
+   }
+   .main h1 {
+    font-size: 28px;
+   }
+   .main p {
+    font-size: 20px;
+   }
+   .main-photo {
+    width: 360px;
+    height: fit-content;
+   }
+   .qwe {
+    display: none;
+   }
+   .order-butt {
+    width: 200px;
+    height: 60px;
+    margin-top: 5px;
+   }
+   .main {
+    row-gap: 30px;
+   }
+
+   .why-we{
+    margin-top: 40px;
+   }
+
+   .why-we h1 {
+    font-size: 28px;
+   }
+
+   .advantages {
+    max-width: 320px;
+   }
+
+   .aboba1 {
+    column-gap: 5px;
+    max-width: 320px;
+   }
+
+   .plus h3 {
+    font-size: 16px;
+   }
+
+   .plus {
+    height: 160px;
+   }
+
+   .teachers h1 {
+    font-size: 28px;
+   }
+
+   .aboba2 {
+    width: 360px;
+   }
+
+   .teacher h2 {
+    font-size: 22px;
+    width: 360px;
+   }
+   .teacher p {
+    font-size: 18px;
+    width: 360px;
+   }
+
+   .languages p {
+    width: fit-content;
+    font-size: 14px
+   }
+   .teacher hr {
+    width: 100%;
+   }
+   .languages {
+    width: 360px;
+   }
+   .skrek {
+    display: inline;
+   }
+   .teach-img {
+    width: 100%;
+   }
+
+   .speaking-club h1 {
+    font-size: 28px;
+   }
+   
+   .club-text {
+    width: 360px;
+   }
+
+   .c-t h3 {
+    font-size: 24px;
+   }
+   .spc-r {
+    width: 370px;
+   }
+
+   .spc-r p {
+    width: 320px;
+    font-size: 18px;
+   }
+   .spc-r h3 {
+    width: 320px;
+    font-size: 18px;
+   }
+
+   .aboba4 {
+    width: 360px;
+   }
+   .aboba3 {
+    width: 170px;
+    height: fit-content;
+   }
+   .club-photo {
+    width: 360px;
+   }
+
+   .speaking-club .order-butt {
+    margin-top: 35px;
+   }
+   .pride {
+    margin-top: 40px;
+   }
+   .pride h1 {
+    font-size: 28px;
+   }
+   .p-i-img img:last-child {
+    width: 360px;
+   }
+
+    .pride-box {
+        width: 360px;
+        height: 600px;
+    }
+
+    .pride-box p {
+        width: 320px;
+        font-size: 18px;
+    }
+    .pride-box h3 {
+        width: 320px;
+        font-size: 20px;
+    }
+    .reviews h1 {
+        font-size: 28px;
+    }
+    .reviews h3 {
+        font-size: 22px;
+    }
+    .q-a h1 {   
+        font-size: 28px;
+    }
+
+    .question {
+        font-size: 22px;
+    }
+
+    .q-a{
+        max-width: 360px;
+    }
+
+    .flags img {
+        width: 30px;
+    }
+
+    .meeting h1 {
+        font-size: 28px;
+    }
+
+    .f-i img {
+        width: 360px;
+    }
+    
+    .forma-button {
+        margin-top: 20px;
+        width: 200px;
+    height: 60px;
+        font-size: 18px;
+    }
+    
+    .forma-label {
+        font-size: 16px;
+        font-weight: 360;
+    }
+    
+    .forma-frame {
+        border: 0;
+        background: #FFFFFF;
+        border-radius: 10px;
+        height: 40px;
+        width: 360px;
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .commets {
+        height: 120px;
+        border: rgba(0, 0, 0, 0.5);
+    }
+}
+@media (max-width: 460px) {
+   .main-text {
+    width: 300px;
+    height: 250px;
+   }
+   .main h1 {
+    font-size: 26px;
+   }
+   .main p {
+    font-size: 18px;
+   }
+   .main-photo {
+    width: 300px;
+   }
+
+   .why-we h1 {
+    font-size: 26px;
+   }
+
+   .advantages {
+    max-width: 300px;
+   }
+
+   .aboba1 {
+    column-gap: 0px;
+    max-width: 260px;
+   }
+
+   .plus h3 {
+    font-size: 14px;
+    width: 100px;
+   }
+
+   .plus {
+    height: 120px;
+   }
+   .plus img {
+    width: 80px;
+    height: 80px;
+   }
+
+   .teachers h1 {
+    font-size: 26px;
+   }
+
+   .aboba2 {
+    width: 300px;
+   }
+
+   .teacher h2 {
+    font-size: 20px;
+    width: 300px;
+   }
+   .teacher p {
+    font-size: 16px;
+    width: 300px;
+   }
+   .teacher {
+    width: 300px;
+   }
+
+   .t-tag {
+    height: 28px;
+    
+   }
+
+   .t-tags {
+    left: -5px;
+   }
+
+   .languages p {
+    width: fit-content;
+    font-size: 14px
+   }
+   .teacher hr {
+    width: 300px;
+   }
+   .languages {
+    width: 300px;
+   }
+   .language img {
+    height: 30px;
+   }
+
+   .teach-img {
+    width: 100%;
+   }
+
+   .speaking-club h1 {
+    font-size: 26px;
+   }
+   .speaking-club {
+    margin-top: 45px;
+   }
+   
+   .club-text {
+    width: 300px;
+   }
+   .c-t {
+    width: 300px;
+   }
+
+   .c-t h3 {
+    font-size: 18px;
+    width: 260px;
+   }
+   .square {
+    width: 6px;
+    height: 6px;
+   }
+   .spc-r {
+    width: 300px;
+    height: 300px;
+   }
+
+   .spc-r p {
+    width: 260px;
+    font-size: 14px;
+   }
+   .spc-r h3 {
+    width: 260px;
+    font-size: 14px;
+   }
+
+   .aboba4 {
+    width: 300px;
+   }
+   .aboba3 {
+    width: 140px;
+    height: fit-content;
+   }
+   .club-photo {
+    width: 300px;
+   }
+
+   .order-butt {
+    width: 160px;
+    height: 50px;
+    
+   }
+   .order-butt a{
+    font-size: 15px;
+   }
+   .pride {
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 620px;
+   }
+   .pride h1 {
+    font-size: 24px;
+   }
+   .p-i-img img:last-child {
+    width: 300px;
+   }
+
+    .pride-box {
+        width: 300px;
+        height: 350px;
+    }
+
+    .pride-box p {
+        width: 260px;
+        font-size: 15px;
+    }
+    .pride-box h3 {
+        width: 260px;
+        font-size: 15px;
+    }
+    .reviews h1 {
+        font-size: 26px;
+    }
+    .review img:first-child{
+        width:60px;
+        top:-30px;
+    }
+    .review {
+        width: 300px;
+        height: 245px;
+        margin-bottom: 50px;
+    }
+    .review-text{
+        margin-top: 20px;
+    }
+    .review-text img {
+        width: 70px;
+        height: fit-content;
+    }
+    .reviews-row {
+        margin-top: 50px;
+    }
+    .reviews h3 {
+        font-size: 18px;
+    }
+    .q-a h1 {   
+        font-size: 26px;
+    }
+
+    .question {
+        font-size: 18px;
+    }
+
+    .q-a{
+        max-width: 300px;
+    }
+    .q-a-block {
+        margin: 20px 0;
+    }
+    .flags img {
+        width: 30px;
+    }
+
+    .meeting h1 {
+        font-size: 23px;
+    }
+    .meeting  {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .f-i img {
+        width: 300px;
+    }
+    
+    .forma-button {
+        margin-top: 20px;
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+    }
+    
+    .forma-label {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    .forma-frame {
+
+        height: 32px;
+        width: 300px;
+        font-size: 14px;
+        padding: 15px;
+    }
+    
+    .commets {
+        height: 120px;
+        border: rgba(0, 0, 0, 0.5);
+    }
+}
