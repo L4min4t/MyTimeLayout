@@ -1,2 +1,2 @@
 # MyTimeLayout
- layout my-time.in.ua
+ layout https://my-time.in.ua
